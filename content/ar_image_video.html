@@ -5,25 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AR Demo</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 
-    <script src="script/aframe-master.min.js"></script>
-    <script src="script/aframe-ar-nft.js"></script>
+    <script src="../script/aframe-master.min.js"></script>
+    <script src="../script/aframe-ar-nft.js"></script>
 
     <!-- <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script> -->
 
 </head>
 <body>
-    <h2>GitHub Page</h2>
-    <h1>AR.js Test</h1>
-    <div>AR</div>
 
-    <div class="page-title"><a href="content/ar_image_video.html">图像追踪</a></div>
-    <div><a href="content/ar_image_video.html">扫描图像播放视频</a></div>
-
-
-    <!-- <div class="arjs-loader">
+    <div class="arjs-loader">
         <div>Loading, please wait...</div>
     </div>
     <a-scene
@@ -32,7 +25,7 @@
         embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
 
         <a-assets>
-            <video src="data/mov_bbb.mp4"
+            <video src="../data/mov_bbb.mp4"
                 preload="auto" id="vid" response-type="arraybuffer" loop
                 crossorigin webkit-playsinline autoplay muted playsinline>
             </video>
@@ -40,7 +33,7 @@
 
         <a-nft
             videohandler
-            type='nft' url='data/dataNFT/pin'
+            type='nft' url='../data/dataNFT/pin'
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
         >
             <a-video
@@ -55,7 +48,7 @@
 		<a-entity camera></a-entity>
 	</a-scene>
 
-    <script src="script/main.js"></script> -->
+    <script src="../script/main.js"></script>
 
 </body>
 </html>
